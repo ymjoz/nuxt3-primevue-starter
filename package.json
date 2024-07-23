@@ -1,11 +1,11 @@
 {
   "name": "nuxt3-primevue-starter",
   "type": "module",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "MIT",
   "scripts": {
     "build": "nuxi build",
-    "dev": "nuxi dev",
+    "dev": "nuxi dev --port 3003 --host",
     "info": "nuxi info",
     "generate": "nuxi generate",
     "preview": "nuxi preview",

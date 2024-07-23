@@ -1,7 +1,7 @@
 <script setup>
-useHead({
-  title: 'Nuxt 3 PrimeVue Starter',
-})
+  useHead({
+    title: '水火bu蓉-app',
+  })
 </script>
 
 <template>
@@ -11,5 +11,5 @@ useHead({
 </template>
 
 <style lang='scss'>
-@import 'App.scss';
+  @import 'App.scss';
 </style>

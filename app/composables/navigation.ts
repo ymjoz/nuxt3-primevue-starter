@@ -47,6 +47,16 @@ export function useNavigationMenu() {
           { href: '/cms/component', title: 'Component' },
         ],
       },
+      {
+        title: 'Shikoku',
+        icon: 'pi pi-globe',
+        child: [
+          { href: '/shikoku/hola', title: 'Hola' },
+          { href: '/shikoku/overview', title: 'Overview' },
+          { href: '/shikoku/region', title: 'Region' },
+          { href: '/shikoku/area', title: 'Area' },
+        ],
+      },
 
     ]
   })

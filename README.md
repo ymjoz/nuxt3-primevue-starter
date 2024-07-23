@@ -1,3 +1,8 @@
+# new Shikoku demo project
+
+- [ ] 水火bu蓉-App (WIP)
+- [ ] Use Dockerfile
+
 # Nuxt 3 + PrimeVue 4 Starter
 
 Build your VUE.js App with Nuxt3 (Nuxt 4 ready). First Class PrimeVUE support. Validation by Formkit.
