@@ -1,7 +1,23 @@
 # new Shikoku demo project
 
 - [ ] 水火bu蓉-App (WIP)
-- [ ] Use Dockerfile
+- [x] Use Dockerfile
+
+
+# build docker image
+```
+cd ~/nuxt3-primevue-starter
+docker build --network=host --force-rm -t xui-img - < dockerfile-dev
+docker build --network=host --force-rm -t xui-img:0.0.3 -f - . < Dockerfile
+
+docker run --rm -it \
+    --name xui-img-dev1 \
+    -v ~/nuxt3-primevue-starter:/app \
+    -p 17281:3000 \
+    xui-img \
+    sh
+
+```
 
 # Nuxt 3 + PrimeVue 4 Starter
 
@@ -104,15 +120,3 @@ Start Production build:
 ```
 pnpm start
 ```
-
-## Tools
-
-I use IntelliJ with VUE.js plugin.
-
-## Supporters
-
-JetBrains is supporting this open source project with:
-
-[![Intellij IDEA](https://resources.jetbrains.com/storage/products/company/brand/logos/IntelliJ_IDEA.svg?_gl=1*186j7fd*_gcl_au*MjEwMzAyNDUzNi4xNzIwMTE5MTc0*_ga*MTg4NjQzMDA5MC4xNzIwMTE5MTc0*_ga_9J976DJZ68*MTcyMDExOTE3NC4xLjAuMTcyMDExOTE3OS41NS4wLjA.)](http://www.jetbrains.com/idea/)
-
-![](public/starter_4.png)

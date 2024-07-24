@@ -1,0 +1,8 @@
+# FROM node:lts
+FROM node:lts-slim
+
+WORKDIR /app
+
+RUN npm install -g pnpm
+
+
